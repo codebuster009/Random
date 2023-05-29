@@ -67,24 +67,28 @@ align-items: center;
   color: white;
   border-radius: 5px;
 }
-.meme{
+.meme > img{
     position : relative;
+    margin-left: 500px;
 }
 .top-h2 , .bottom-h2 {
     position: absolute;
-    left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
 }
 .top-h2 {
-    top : 0
+    top : 0 ;
+    margin-top: 390px;
+    margin-left: 720px;
+    color: yellowgreen;
 }
 .bottom-h2{
-    bottom : 0
+    bottom : 0;
+    margin-left: 720px;
+    margin-bottom: 150px;
+    color: yellowgreen;
 }
 .meme > img {
     max-width: 500px;
     max-height: 500px;
-}
+    position : relative;
+} 
 </style>
